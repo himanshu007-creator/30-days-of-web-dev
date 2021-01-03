@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barebones Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <h1>BAREBONES PORTFOLIO</h1>
+        <p><i>Hi there, my name is <b>ElMagdo</b></i></p>
+        <p><i>Am an aspiring Software Developer/Engineer.</i></p>
+    </header>
+    <br><hr><br>
+    <img
+    src="https://images.unsplash.com/photo-1523278669709-c05da80b6a65?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTU4fHxtYWxlJTIwbW9kZWx8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    alt="Profile pic;"
+    >
+    <p>I offer services such as:</p>
+    <ul>
+        <li>Web and mobile UI designing</li>
+        <li>Graphics designing</li>
+        <li>Web site development</li>
+        <li>Web app development (progressive)</li>
+        <li>Mobile app development</li>
+        <li>Programming mentorship...</li>
+    </ul>
+    <br><hr><br>
+    <form target="_self">
+        <fieldset>
+            <legend>Contact me:</legend>
+            <br>
+            <label for="fname">First name:</label>
+            <input type="text" name="fname" placeholder="Leonel" required>
+            <br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" name="lname" placeholder="Messi" required>
+            <br><br>
+            <label for="mail">Email address:</label>
+            <input type="email" name="mail" placeholder="lm10@domain.com" required>
+            <br><br>
+            <label for="tel">Tel:</label>
+            <input type="number" name="tel" placeholder="+237677543211" required>
+            <br><br>
+            <label for="message">Message (Optional):</label>
+            <br>
+            <textarea placeholder="Enter your message"></textarea>
+            <br><br>
+            <br>
+            <button>Submit</button>
+        </fieldset>
+    </form>
+    <hr>
+    <img
+    src="https://cdn.pixabay.com/photo/2017/09/07/08/54/money-2724241__340.jpg"
+    alt="Success pic;"
+    >
+    <table>
+        <caption>SKILL ASSESMENT</caption>
+        <tr>
+            <th>SKILL</th>
+            <th>RATING / 5</th>
+            <th>EXPERIENCE (Months)</th>
+        </tr>
+        <br>
+        <tr>
+            <td>C</td>
+            <td>4.0</td>
+            <td>27</td>
+        </tr>
+        <br>
+        <tr>
+            <td>C++</td>
+            <td>3.7</td>
+            <td>20</td>
+        </tr>
+        <br>
+        <tr>
+            <td>Javascript</td>
+            <td>3.3</td>
+            <td>10</td>
+        </tr>
+        <br>
+        <tr>
+            <td>Java</td>
+            <td>3.0</td>
+            <td>4</td>
+        </tr>
+        <br>
+        <tr>
+            <td>Python</td>
+            <td>2.8</td>
+            <td>2</td>
+        </tr>
+    </table>
+    <br><hr>
+    <p>Take some <i>LOVE</i> from the joy of celebrating this festive season</p>
+    <video width="320" height="240" controls>
+        <source
+        src="https://cdn.videvo.net/videvo_files/video/free/2014-12/small_watermarked/4K_Merry_Christmas_Red_Videvo_preview.webm"
+        type="video/webm"
+        >
+        Sorry!! Your browser doesn't support videos of this format.
+    </video>
+    <br><hr><br>
+    <footer>
+        <p><i>Author:</i> </b><mark>ElMagdo</mark></b></p>
+        <p><i>Year:</i> 2020</p>
+    </footer>
+</body>
+
+</html>
